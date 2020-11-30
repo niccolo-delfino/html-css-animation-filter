@@ -1,0 +1,33 @@
+.space{
+  width: 768px;
+  height: 768px;
+  background-image: url('../img/space.png');
+  background-position: right;
+  background-repeat: repeat;
+  animation: anispace 1s linear infinite;
+}
+
+.cat{
+  height: 768px;
+  background-image: url('../img/nyancat.png');
+  background-position: -70px -100px;
+  background-repeat: no-repeat;
+  animation: anicat 3s linear infinite;
+}
+
+@keyframes anispace {
+  0%{
+    background-position: left;
+  }
+}
+@keyframes anicat {
+  0%{
+    background-position: -70px -100px;
+  }
+  50%{
+    background-position: -70px 300px;
+  }
+  100{
+    background-position: -70px -100px;
+  }
+}
