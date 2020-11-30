@@ -2,27 +2,50 @@
     width: 100px;
     height: 100px;
     border: 1px solid red;
+    transition: 2s;
+}
+.ex-1-square:hover {
+  background-color: red;
 }
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 2s;
+}
+.ex-2-square:active {
+    width: 100%;
 }
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 1s;
+}
+.ex-3-square:hover {
+    border-radius: 50%;
 }
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 2s;
+}
+.ex-4-square:hover {
+  opacity: 0;
 }
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
+    transition: 2s;
+}
+.ex-5-square:hover {
+    transform: scale(2);
+}
+.ex-5-square:active {
+    transform: scale(0.5);
 }
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
